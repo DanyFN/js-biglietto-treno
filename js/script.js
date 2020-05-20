@@ -15,7 +15,7 @@ var eta = parseInt(prompt("Quanti anni hai?", "Inserisci la tua età..."));
 //calcolo il prezzo totale in base ai km
 var prezzo = km * 0.21;
 
-//calcolo il prezzo con gli sconti applicati
+//calcolo gli sconti
 var sconto20 = prezzo * 20 /100;
 var sconto40 = prezzo * 40 /100;
 
