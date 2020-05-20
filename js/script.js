@@ -28,5 +28,5 @@ if (eta <= 18) {
   " in tutto paga " + (prezzo - sconto40).toFixed(2) + " €";
 }else {
   document.getElementById('esercizio').innerHTML = "L'utente percorre " + km + " km, " + "ha " + eta +" anni, " +
-  " in tutto paga " + prezzo + " €";
+  " in tutto paga " + prezzo.toFixed(2) + " €";
 }
